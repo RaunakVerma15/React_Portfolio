@@ -1,8 +1,8 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
-import NewsletterImage from '../images/NewsletterImage.png';
-import RogfreeImage from '../images/RogfreeImage.png';
-import TindogImage from '../images/TindogImage.png';
+import Tictactoe from '../images/Tictactoe.png';
+import Crystal_Charm from '../images/Crystal_Charm.png';
+import Bootstrap from '../images/Bootstrap.png';
 import WigglesImage from '../images/WigglesImage.png';
 
 const Projects = () => {
@@ -10,10 +10,10 @@ const Projects = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Wiggles" />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        <ProjectBox projectPhoto={Bootstrap} projectName="Bootstrap" />
+        <ProjectBox projectPhoto={Crystal_Charm} projectName="Crystal_Charm" />
+        <ProjectBox projectPhoto={Tictactoe} projectName="Tictactoe" />
+        {/* <ProjectBox projectPhoto={WigglesImage} projectName="Wiggles" /> */}
       </div>
 
     </div>
